@@ -65,7 +65,7 @@ else:
    print("Negative number")
 
 
-#convert days to ages
+#convert number of days to ages
 
 
 no_of_days = int(input())
@@ -82,12 +82,12 @@ else:
 
     print(f"{no_of_days} Days = ", year, "Year", f"{remaining_days} Days")
 
-# solve trignometric function
+# solve trignometric function using math function
 import math as mt
 
 print(mt.sin(90),mt.cos(30))
 
-# basic airthmetic calculator
+# basic arithmetic calculator
 n1 = int(input("Enter First Number: "))
 n2 = int(input("Enter Second Number: "))
 operator = input("Enter Arithmetic Operator: ")
